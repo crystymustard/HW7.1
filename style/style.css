@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "fontb6aa2b12d843f986bfcbdb2274c494ce";
+
+  src: url("https://nomail.com.ua/files/eot/b6aa2b12d843f986bfcbdb2274c494ce.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://nomail.com.ua/files/woff/b6aa2b12d843f986bfcbdb2274c494ce.woff")
+      format("woff"),
+    url("https://nomail.com.ua/files/woff2/b6aa2b12d843f986bfcbdb2274c494ce.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "LucidaSans";
+  src: local("LucidaSans"),
+    url("https://nomail.com.ua/files/woff/b6aa2b12d843f986bfcbdb2274c494ce.woff")
+      format("woff");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+body {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #3399cc;
+  border: 20px solid #2b81ac;
+}
+h1 {
+  font-family: "LucidaSans";
+  color: whitesmoke;
+  margin: 15px 0 0 15%;
+}
+ul {
+  border: 3px solid white;
+  font-size: 0;
+  margin: 40px 15% 0 15%;
+  width: 70%;
+  list-style: none;
+}
+li {
+  width: 25%;
+  height: 130px;
+  color: white;
+  font-family: "LucidaSans";
+  font-size: 20px;
+  border: 3px solid white;
+  border-collapse: collapse;
+  display: inline-block;
+  text-align: center;
+}
+li:nth-child(1),
+li:nth-child(9) {
+  width: 50%;
+}
+li:last-child {
+  width: 100%;
+}
+h2 {
+  padding-top: 25px;
+  font-weight: 300;
+}
+span {
+  font-size: 30px;
+  opacity: 0.6;
+}
+p {
+  font-size: 20px;
+  color: white;
+  font-family: "Lucida Sans";
+  padding: 10px 0 0 15%;
+}
+.lisbon {
+  background-color: #3399cc;
+}
+.paris {
+  background-color: #33cccc;
+}
+.belgrade {
+  background-color: #996699;
+}
+.moscow {
+  background-color: #c24747;
+}
+.telaviv {
+  background-color: #e2674a;
+}
+.cair {
+  background-color: #ffcc66;
+}
+.newyork {
+  background-color: #99cc99;
+}
+.newdehli {
+  background-color: #669999;
+}
+.sanfrancisco {
+  background-color: #cc6699;
+}
+.tokyo {
+  background-color: #339966;
+}
+.sydney {
+  background-color: #666699;
+}
+main .cities:hover {
+  background-color: white;
+  opacity: 0.7;
+}
+li:not(:hover) {
+  opacity: 0.7;
+}
